@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouProc Options</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-group w-50 align-middle col text-center mx-auto mt-4">
+            <label for="exampleFormControlSelect2">
+                <h3>Except Categories (Will not be Blocked)</h3>
+            </label>
+            <select size="15" multiple class="form-control" id="categories">
+                <option selected value="28">Science & Technology</option>
+                <option selected value="35">Documentary</option>
+                <option selected value="27">Education</option>
+                <option value="1">Film & Animation</option>
+                <option value="2">Autos & Vehicles</option>
+                <option value="10">Music</option>
+                <option value="15">Pets & Animals</option>
+                <option value="17">Sports</option>
+                <option value="18">Short Movies</option>
+                <option value="19">Travel & Events</option>
+                <option value="20">Gaming</option>
+                <option value="21">Videoblogging</option>
+                <option value="22">People & Blogs</option>
+                <option value="23">Comedy</option>
+                <option value="24">Entertainment</option>
+                <option value="25">News & Politics</option>
+                <option value="26">Howto & Style</option>
+                <option value="29">Nonprofits & Activism</option>
+                <option value="30">Movies</option>
+                <option value="31">Anime/Animation</option>
+                <option value="32">Action/Adventure</option>
+                <option value="33">Classics</option>
+                <option value="34">Comedy</option>
+                <option value="36">Drama</option>
+                <option value="37">Family</option>
+                <option value="38">Foreign</option>
+                <option value="39">Horror</option>
+                <option value="40">Sci-Fi/Fantasy</option>
+                <option value="41">Thriller</option>
+                <option value="42">Shorts</option>
+                <option value="43">Shows</option>
+                <option value="44">Trailers</option>
+            </select>
+            <br><br>
+            <div class="form-group row w-30 align-middle text-center">
+                <label for="example-number-input"class="col-4 col-form-label"><h4> Time Limit</h4></label>
+                <div class="col-6">
+                    <input  class="form-control" type="number" value="15" id="mininput">
+                </div>
+                <label for="example-number-input"class="col-2 col-form-label">Minutes</label>
+            </div>
+            <div class="text-center">
+                <a id="sav" style=" text-align: center;" href="#" class="btn btn-primary mx-auto text-center">Save Settings</a>
+              </div>
+        </div>
+
+
+    </div>
+<script src="options.js"></script>
+</body>
+
+</html>
