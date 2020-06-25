@@ -10,7 +10,7 @@ How to Install :
 
 2-un-zip the file
 
-3-open "chrome-packed-version" folder and then drag and drop "ChromeExtension.crx" into "chrome://extensions/" page in the browser
+3-open "chrome://extensions/" page in the browser , and then click load unpacked , select the unziped folder
 
 the extension now is installed ,
 
